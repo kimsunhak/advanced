@@ -123,8 +123,10 @@
       > `@RequestMapping` : 스프링MVC는 `@Controller` 또는 `@RequestMapping` 에노테이션이 타입에 있어야 스프링 컨트롤러로 인식.
       > `@ResponseBody` : HTTP 메시지 컨버터를 사용해서 응답.
       > 코드에서 `request()` 는 LogTrace를 적용할 대상.
-  
-
+  - 예제 프로젝트 만들기 V2 :
+      > `@RequestMapping` 애노테이션을 사용한 이유는 `@Controller` 를 사용하면 자동 컴포넌트 스캔의 대상이 되기 때문.
+  - 예제 프로젝트 만들기 V3 :
+      >  
 
 
 [참고 자료](https://www.inflearn.com/course/%EC%8A%A4%ED%94%84%EB%A7%81-%ED%95%B5%EC%8B%AC-%EC%9B%90%EB%A6%AC-%EA%B3%A0%EA%B8%89%ED%8E%B8/dashboard) : 스프링 핵심 원리 - 고급편
