@@ -117,8 +117,13 @@
       >
       > - 스프링에서는 `JdbcTemplate` , `RestTemplate` , `TransactionTemplate` , `RedisTemplate` 처럼 다양한 템플릿 콜백
       >   패턴이 사용된다. 스프링에서 이름에 `XxxTemplate` 이 있다면 템플릿 콜백 패턴으로 만들어져 있다고 생각하면 됨.
-
-
+      
+- 프록시 패턴과 데코레이터 패턴
+  - 예제 프로젝트 만들기 V1 :
+      > `@RequestMapping` : 스프링MVC는 `@Controller` 또는 `@RequestMapping` 에노테이션이 타입에 있어야 스프링 컨트롤러로 인식.
+      > `@ResponseBody` : HTTP 메시지 컨버터를 사용해서 응답.
+      > 코드에서 `request()` 는 LogTrace를 적용할 대상.
+  
 
 
 
